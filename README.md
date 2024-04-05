@@ -47,6 +47,8 @@ Welcome to the Recipe App! This application allows users to view, add, and manag
      - Initialize Prisma and generate the Prisma client:
        ```bash
        npx prisma init
+       ```
+       ```bash
        npx prisma generate
        ```
     - Update the database based on your using:
