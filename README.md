@@ -18,7 +18,9 @@ Welcome to the Recipe App! This application allows users to view, add, and manag
    cd recipe-app-fullstack
    ```
 2. **Add the .env file**
+
     - **Add the .env file to the root of the backend folder**
+
     - **Follow this syntax inside the .env file:**
       - DATABASE_URL= your_database_url (from ElephantSQL)
       - API_KEY= your_api_key (from Spoonacular API)
