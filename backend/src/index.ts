@@ -3,12 +3,23 @@ import cors from "cors";
 import "dotenv/config";
 import * as RecipeAPI from "./recipe-api";
 import { PrismaClient } from "@prisma/client";
+import path from "path";
 
 const app = express();
 const prismaClient = new PrismaClient();
 
 app.use(express.json());
 app.use(cors());
+
+app.set("view engine", "ejs");
+app.set("views", path.join(__dirname, "views") as string);
+
+app.get("/", async (req, res) => {
+  console.log("Handling ejs route");
+  const message = 'Hello, EJS!';
+  return res.render('index', { message });
+});
+
 
 app.get("/api/recipes/search", async (req, res) => {
   const searchTerm = req.query.searchTerm as string;
