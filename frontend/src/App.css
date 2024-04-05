@@ -93,7 +93,7 @@ button {
   height: 500px;
   object-fit: cover;
   object-position: center;
-  opacity: 80%;
+  opacity: 90%;
   border-radius: 1em;
 }
 
@@ -107,7 +107,7 @@ button {
   text-align: center;
   background-color: rgba(249, 172, 95, 0.6);
   opacity: 100%;
-  padding: 0.5em 1.5em 0.5em 1.5em;
+  padding: 0.5em 0.3em 0.5em 0.3em;
 }
 
 .overlay {
