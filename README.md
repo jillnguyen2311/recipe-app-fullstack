@@ -1,6 +1,6 @@
 # Recipe App 🍲
 
-Welcome to the Recipe App! This application allows users to view, add, and manage your favorite recipes. It's built using React for the frontend and Node.js with Prisma and PostgreSQL for the backend.
+Welcome to the Recipe App! This app allows users to view recipe and their description, as well as manage their favorite recipes. It's built using React and EJS for the frontend and Node.js & Express.js with Prisma and PostgreSQL for the backend.
 
 ## Getting Started 🚀
 
