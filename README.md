@@ -79,3 +79,8 @@ Welcome to the Recipe App! This application allows users to view, add, and manag
      ```bash
      npm run dev
      ```
+
+
+## Contributors 🖐️
+- [Jill Nguyen](https://github.com/jillnguyen2311)
+- [Farbod Tandas](https://github.com/farbodtandas)
