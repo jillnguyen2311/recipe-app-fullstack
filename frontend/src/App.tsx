@@ -130,7 +130,7 @@ const App = () => {
           </div>
 
           <button className="view-more-button" onClick={handleViewMoreClick}>
-            View More
+            View More 🠋
           </button>
         </>
       )}

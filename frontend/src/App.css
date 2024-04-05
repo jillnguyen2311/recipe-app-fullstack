@@ -75,6 +75,7 @@ button {
   padding: 1em;
   font-weight: bold;
   margin: auto;
+  color: brown;
 }
 
 .app-container {
@@ -92,7 +93,7 @@ button {
   height: 500px;
   object-fit: cover;
   object-position: center;
-  opacity: 50%;
+  opacity: 80%;
   border-radius: 1em;
 }
 
@@ -101,11 +102,11 @@ button {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: white;
-  font-size: 2em;
+  color: rgb(0, 0, 0);
+  font-size: 4em;
   text-align: center;
-  background-color: black;
-  opacity: 80%;
+  background-color: rgba(249, 172, 95, 0.6);
+  opacity: 100%;
   padding: 0.5em 1.5em 0.5em 1.5em;
 }
 
