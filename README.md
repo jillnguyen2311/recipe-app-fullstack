@@ -1,6 +1,6 @@
 # Recipe App 🍲
 
-Welcome to the React-Node Recipe App! This application allows users to view, add, and manage their favorite recipes. It's built using React for the frontend and Node.js with Prisma for the backend.
+Welcome to the Recipe App! This application allows users to view, add, and manage your favorite recipes. It's built using React for the frontend and Node.js with Prisma and PostgreSQL for the backend.
 
 ## Getting Started 🚀
 
@@ -14,11 +14,16 @@ Welcome to the React-Node Recipe App! This application allows users to view, add
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/chrisblakely01/react-node-recipe-app.git
-   cd react-node-recipe-app
+   git clone https://github.com/jillnguyen2311/recipe-app-fullstack.git
+   cd recipe-app-fullstack
    ```
+2. **Add the .env file**
+    - **Add the .env file to the root of the backend folder**
+    - **Follow this syntax inside the .env file:**
+    - DATABASE_URL= your_database_url (from ElephantSQL)
+    - API_KEY= your_api_key (from Spoonacular API)
 
-2. **Setting up the Backend**:
+3. **Setting up the Backend**:
 
    - Navigate to the backend directory:
      ```bash
@@ -44,13 +49,17 @@ Welcome to the React-Node Recipe App! This application allows users to view, add
        npx prisma init
        npx prisma generate
        ```
+    - Update the database based on your using:
+       ```bash
+       npx prisma db push
+       ```
 
    - Start the backend server:
      ```bash
      npm start
      ```
 
-3. **Setting up the Frontend**:
+4. **Setting up the Frontend**:
 
    - Navigate to the frontend directory:
      ```bash
